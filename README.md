@@ -106,30 +106,6 @@ This approach creates a connected maze with paths that the player can navigate.
 
 The game displays a winning message when the player successfully reaches the green exit square.
 
-## Java Concepts Used
-
-This project demonstrates several Java programming concepts, including:
-
-- **Object-Oriented Programming** - Organizes the program into classes responsible for the game window, maze generation, and graphical display.
-- **Classes and Constructors** - Uses constructors to initialize the game window, maze dimensions, Swing components, and initial maze.
-- **Inheritance** - Extends `JFrame` to create the main game window and `JPanel` to create the maze drawing area.
-- **Interfaces** - Implements `ActionListener` and `KeyListener` to respond to button clicks and keyboard input.
-- **Inner Classes** - Uses the static nested `MazePanel` class to manage maze generation, player movement, and drawing.
-- **Method Overriding** - Overrides methods such as `paintComponent()`, `actionPerformed()`, and `keyPressed()` to define custom graphical and interactive behaviour.
-- **Event-Driven Programming** - Responds to user actions through event listeners.
-- **Java Swing Components** - Uses `JFrame`, `JPanel`, `JButton`, and `JLabel` to create the graphical interface.
-- **Java 2D Graphics** - Uses `Graphics2D` to draw maze walls, open paths, the player, and the exit.
-- **Arrays** - Uses one-dimensional and two-dimensional arrays to store movement directions and maze information.
-- **Recursion** - Uses a recursive method to generate maze pathways.
-- **Random Number Generation** - Uses the `Random` class to shuffle directions and create different maze layouts.
-- **Loops** - Uses nested `for` loops to initialize and draw the maze, as well as loops to explore possible directions.
-- **Conditional Statements** - Uses `if` and `else if` statements to process keyboard input, check movement validity, and determine when the player wins.
-- **Methods and Parameters** - Uses methods such as `movePlayer()`, `generateNewMaze()`, `resetPlayer()`, and `carvePath()` to separate different parts of the game's functionality.
-- **Access Modifiers** - Uses `public`, `private`, and `protected` to control access to classes, variables, and methods.
-- **Encapsulation** - Keeps maze data, player coordinates, and maze generation methods within the `MazePanel` class.
-- **Boolean Logic** - Uses boolean expressions to check maze boundaries, validate movements, and track the winning state.
-- **Dynamic Graphical Updates** - Uses `repaint()` to update the interface when the player's position or maze changes.
-
 ## Purpose
 
 The purpose of this project is to demonstrate how Java can be used to create an interactive graphical application through the combination of **Swing components, 2D graphics, data structures, algorithms, and event listeners**.
